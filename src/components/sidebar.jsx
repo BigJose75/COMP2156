@@ -9,7 +9,8 @@ export default class Sidebar extends Component {
             href="#navbar"
             className="js-colorlib-nav-toggle colorlib-nav-toggle"
             data-toggle="collapse"
-            data-target="#navbar" 
+            data-target="#navbar"
+            aria-expanded="false"
             aria-controls="navbar"
           >
             <i />
